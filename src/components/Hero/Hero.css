@@ -9,11 +9,12 @@
 .hero-section {
   max-width: 1500px;
   display: flex;
+  justify-content: center;
+  gap: 10px;
   align-items: center;
-  justify-content: space-between;
   margin: auto;
   /* margin-top: 140px; */
-  height: 800px;
+  height: 750px;
   padding: 10px;
 }
 
@@ -26,11 +27,12 @@
 .nav-logo {
   height: 60px;
   padding: 5px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .cafe-logo {
   height: 120px;
+  margin-bottom: 34px;
 }
 
 .nav {
@@ -43,12 +45,31 @@
 .menu-icon {
   padding: 10px;
   cursor: pointer;
+  margin-right: 22px;
 }
 
 .primary-heading {
   color: #333;
   font-weight: 900;
   font-size: 50px;
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 54px;
+}
+
+.hero-section p {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 33px;
+}
+
+.hero-link {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
 }
 
 .hero-image {
@@ -61,15 +82,18 @@
   margin-top: 30px;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
+  border-radius: 50px;
   border: none;
-  padding: 0 35px;
+  padding: 0 55px;
   font-size: 15px;
   line-height: 1;
   font-weight: bold;
   font-size: 20px;
   height: 45px;
-  background-color: #e67e22;
-  color: white;
+  background-color: #f4ece3;
+  color: #333;
   cursor: pointer;
+  border: 2px solid #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

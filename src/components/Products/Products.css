@@ -1,4 +1,43 @@
 .products-container {
   height: 100vh;
   background-color: gray;
+  background-image: url('../../../public/pd-background.jpg');
+}
+
+.product-heading {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 130px;
+  font-weight: 100;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+  column-gap: 4rem;
+  margin-bottom: 1rem;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-between;
+  padding: 22px;
+  align-items: center;
+}
+
+.freepik {
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.freepik a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
 }

@@ -20,7 +20,8 @@ const Hero = () => {
           <img className='cafe-logo' src='/logo.png' alt='logo' />
           <h1 className='primary-heading'>O melhor lugar para tomar café que você já conheceu.</h1>
           <p>Desperte seus sentidos com o aroma irresistível do nosso café fresco e experimente uma experiência única e saborosa que vai te deixar com vontade de voltar sempre!</p>
-          <button className='button'>Saiba mais</button>
+          <p>Imagem de <a className='hero-link' href='https://br.freepik.com/'>Freepik</a></p>
+          <button className='button'>Consulte mais informações</button>
         </div>
       </div>
     </div>
