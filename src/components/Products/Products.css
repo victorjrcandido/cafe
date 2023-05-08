@@ -9,7 +9,7 @@
   font-size: 50px;
   text-align: center;
   margin: auto;
-  padding-top: 130px;
+  padding-top: 70px;
   font-weight: 100;
 }
 
@@ -19,7 +19,7 @@
   row-gap: 2rem;
   column-gap: 4rem;
   margin-bottom: 1rem;
-  max-width: 1400px;
+  max-width: 90%;
   margin: auto;
   margin-top: 100px;
   justify-content: space-between;
@@ -32,6 +32,7 @@
   color: white;
   margin: auto;
   margin-top: 60px;
+  /* margin-bottom: 20px; */
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -40,4 +41,19 @@
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
+}
+
+@media (max-width: 1200px) {
+  .card-section {
+    row-gap: 1rem;
+    column-gap: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card-section {
+    row-gap: 0.5rem;
+    column-gap: 1rem;
+    padding: 0;
+  }
 }
