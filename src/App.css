@@ -2,3 +2,8 @@ body {
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}

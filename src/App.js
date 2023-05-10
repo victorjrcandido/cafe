@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Products from './components/Products';
 
@@ -8,7 +7,6 @@ function App() {
     <div className="App">
       <Hero />
       <Products />
-      {/* <Footer /> */}
     </div>
   );
 }
